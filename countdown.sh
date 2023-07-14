@@ -1,3 +1,8 @@
 #!/bin/bash
 #Program that counts down to zero from a given argument
-echo $1
+if [[ 4 -le 5 ]]
+then
+echo true
+else
+echo false
+fi
